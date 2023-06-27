@@ -27,4 +27,11 @@ h1 {
    width: 400px;
    height: 200px;
    margin: 10px;
+   border-radius: 10px;
+   box-shadow: 4px 6px 5px rgba(93, 6, 165, 0.3);
+   transform: translateX(400%);
+}
+
+.box.show {
+    transform: translateX(0);
 }
