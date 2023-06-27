@@ -13,7 +13,7 @@ function checkBoxes() {
 
 
   boxes.forEach(box => {
-    const boxTop = box.getBoundingclientRect().top;
+    const boxTop = box.getBoundingClientRect().top;
     if (boxTop < triggerBotttom) {
         box.classList.add("show")
     } else {
